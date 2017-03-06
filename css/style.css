@@ -1,0 +1,284 @@
+body{
+  margin:0;
+	font-family: 'Source Sans Pro', sans-serif !important;
+	background: #fff;
+  color: #fff;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration:none;
+	outline:none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	/*font-family: 'Arapey', serif;*/
+}
+
+h5{
+  font-size: 2em;
+}
+
+p{
+	margin:0;
+}
+
+.container-fluid{
+  padding: 0px !important;
+}
+
+.row{
+  margin: 0px;
+}
+
+nav.navbar, navbar.navbar-default{
+  background-color: rgba(255,255,255,0.5);
+  border: 1px solid transparent;
+  margin: 0px;
+  border-radius: 0px;
+  z-index: 100;
+}
+
+nav.navbar .navbar-header .navbar-brand img{
+  padding-left: 50px;
+  width: 120px;
+  position: absolute;
+  top: 0px;
+}
+
+.top-banner{
+  background: url(../images/image3.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+  /*min-height:780px;*/
+  height: 100%;
+  top: 0px;
+  width: 100%;
+  padding-bottom: 4%;
+}
+
+.top-banner .top-banner-content{
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.top-banner .top-banner-content .bullet-points{
+  margin-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.top-banner .top-banner-content .bullet-points h1{
+  font-size: 5em;
+}
+
+.top-banner .top-banner-content .bullet-points center p {
+  color: #c03020;
+  font-size: 2em;
+  margin-top: 70px;
+  text-align: left;
+}
+
+div.inquiry{
+  background: rgba(255,255,255,0.5);
+  color: #c03020;
+  padding: 20px;
+}
+
+.inquiry .inquiry-title{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.inquiry .inquiry_form input[type=text],
+.inquiry .inquiry_form input[type=email]{
+  border-radius: 0;
+  line-height: 22px;
+  font-size: 14px;
+  padding: 14px 17px 14px;
+  outline: none;
+  color: #000000;
+  height: 35px;
+  border: 1px solid #424141;
+  /*margin: 0 0 20px;*/
+	letter-spacing:1px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.inquiry .inquiry_form input[type=submit]{
+  border-radius: 0;
+  line-height: 22px;
+  font-size: 14px;
+  padding: 14px 17px 14px;
+  outline: none;
+  color: #ffffff;
+  height: 50px;
+  border: 1px solid #c03020;
+  background: #c03020;
+  /*margin: 0 0 20px;*/
+	letter-spacing:1px;
+}
+
+/* Courses */
+.courses{
+  width: 100%;
+}
+
+.courses h1{
+  letter-spacing: 1px;
+}
+
+.courses .fashion-design-content,
+.courses .interior-design-content {
+  padding: 0px;
+}
+
+.courses .fashion-design-image img,
+.courses .interior-design-image img {
+  height: 450px;
+  width: 100%;
+}
+
+.courses .fashion-design-text,
+.courses .interior-design-text {
+  padding: 10px;
+}
+
+.courses .fashion-design-text{
+  background: #168eea;
+}
+
+.courses .interior-design-text{
+  background: #ee4f4f;
+}
+
+/* Courses ends */
+
+/* Why Us */
+.why-us{
+  background: url("../images/g4.jpg") 0px 0px no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding-top: 10%;
+}
+
+.why-us h1{
+  letter-spacing: 5px;
+  font-size: 2.7em;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.why-us .why-us-text{
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  margin-bottom: 150px;
+  line-height: 30px;
+}
+/* Why Us ends */
+
+/* Contact and Map */
+.contact-map .map,
+.contact-map .contact{
+  padding: 0px;
+}
+
+.contact-map .map #map {
+  width: 100%;
+  height: 337px;
+}
+
+.contact-map .contact-email,
+.contact-map .contact-address,
+.contact-map .contact-phone {
+  padding: 40px;
+}
+
+.contact-map .contact-email {
+  background-color: #000000;
+}
+
+.contact-map .contact-address,
+.contact-map .contact-phone {
+  font-size: 1.1em;
+}
+
+.contact-map .contact-address h5,
+.contact-map .contact-phone h5 {
+  padding-bottom: 1em;
+}
+
+.contact-map .contact-address{
+  background-color: #ee4f4f;
+}
+
+.contact-map .contact-phone{
+  background-color: #168eea;
+  height: 207px;
+}
+/* Contact and Map ends */
+
+/* Social Media Timelines */
+.social-media{
+  background-color: #ee4f4f;
+  width: 100%;
+  padding: 30px;
+}
+
+.social-media h1{
+  padding-bottom: 1em;
+}
+
+.social-media iframe #facebook ._li ._2p3a{
+  width: 100%;
+}
+/* Social Media Timelines ends */
+
+/* Footer */
+.footer{
+  bottom: 0px;
+  padding: 1em 0;
+  background: #168eea;
+  text-align: center;
+}
+
+.footer p{
+  color: #FFF;
+  letter-spacing: 1px;
+}
+
+.footer p a {
+  color: #fff;
+}
+
+.footer p a:hover {
+  color: #fff;
+	text-decoration:none;
+}
+/* Footer ends */
