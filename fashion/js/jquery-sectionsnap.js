@@ -7,8 +7,8 @@
 			, 'animationTime'	: 400 // animation time (snap scrolling)
 			, 'offsetTop'		: 0 // offset top (no snap before scroll reaches this position)
 			, 'offsetBottom'	: 0 // offset bottom (no snap after bottom - offsetBottom)
-		}, options);		
-		
+		}, options);
+
 		var $wrapper = this
 		, direction = 'down'
 		, currentScrollTop = $(window).scrollTop()
@@ -25,7 +25,7 @@
 		}
 
 		// return the closest element (depending on direction)
-		var getClosestElement = function() {			
+		var getClosestElement = function() {
 			var $list = $wrapper.find(settings.selector)
 			, wt = $(window).scrollTop()
 			, wh = $(window).height()
@@ -35,7 +35,7 @@
 
 			if (direction == 'down') {
 				$list.each(function() {
-					var st = $(this).position().top;					
+					var st = $(this).position().top;
 					if ((st > wt) && (st <= wtd)) {
 						$target = $(this);
 						return false; // just to break the each loop
@@ -44,7 +44,7 @@
 			} else {
 				wtd = wt - refY + 1;
 				$list.each(function() {
-					var st = $(this).position().top;					
+					var st = $(this).position().top;
 					if ((st < wt) && (st >= wtd)) {
 						$target = $(this);
 						return false; // just to break the each loop
@@ -69,7 +69,7 @@
 		}
 		// on window scroll
 		var windowScroll = function() {
-			if (animating) 
+			if (animating)
 				return;
 			var st = $(window).scrollTop();
 			if (st < settings.offsetTop)

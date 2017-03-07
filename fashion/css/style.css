@@ -1,6 +1,8 @@
 body{
   margin:0;
-	font-family: 'Source Sans Pro', sans-serif !important;
+	/*font-family: 'Source Sans Pro', sans-serif !important;*/
+  /*font-family: 'Arapey', serif;*/
+  font-family: 'PT Sans', sans-serif;
 	background: #fff;
   color: #fff;
   letter-spacing: 1px;
@@ -58,7 +60,7 @@ nav.navbar .navbar-header .navbar-brand img{
 }
 
 .top-banner{
-  background: url(../images/web_img.png) no-repeat 0px 0px;
+  background: url(../images/web_img_invert.png) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -68,7 +70,7 @@ nav.navbar .navbar-header .navbar-brand img{
   height: 100%;
   top: 0px;
   width: 100%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
 .top-banner .top-banner-content{
@@ -79,27 +81,27 @@ nav.navbar .navbar-header .navbar-brand img{
 }
 
 .top-banner .top-banner-content img{
-  width: 90px;
+  width: 80px;
 }
 
 .top-banner .top-banner-content .bullet-points{
-  margin-top: 30px;
+  margin-top: 20px;
   padding-bottom: 30px;
 }
 
 .top-banner .top-banner-content .bullet-points h1{
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .top-banner .top-banner-content .bullet-points center p {
   /*color: #c03020;*/
   color: #ffffff;
   font-size: 2rem;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 div.inquiry{
-  background: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.3);
   color: #c03020;
   padding: 20px;
   margin-top: 30px;
@@ -146,34 +148,35 @@ div.inquiry{
 /* Courses */
 .courses{
   width: 100%;
+  margin: 0px;
 }
 
 .courses h1{
   letter-spacing: 1px;
 }
 
-.courses .fashion-design-content,
-.courses .interior-design-content {
+.courses .fashion-design-content {
   padding: 0px;
 }
 
-.courses .fashion-design-image img,
-.courses .interior-design-image img {
-  height: 450px;
+.courses .fashion-design-image .ashley-image{
+  padding: 0px;
+}
+
+.courses .fashion-design-image img {
+  height: 400px;
   width: 100%;
 }
 
-.courses .fashion-design-text,
-.courses .interior-design-text {
+.courses .fashion-design-text {
   padding: 50px;
+  /*background: #fd3;*/
+  background-color: #f22;
+  /*color: #f22;*/
 }
 
-.courses .fashion-design-text{
-  background: #168eea;
-}
-
-.courses .interior-design-text{
-  background: #ee4f4f;
+.courses .fashion-design-text p {
+  font-size: 1.1em;
 }
 
 /* Courses ends */
@@ -189,7 +192,7 @@ div.inquiry{
   -ms-background-size: cover;
   height: 100%;
   width: 100%;
-  padding-top: 13%;
+  padding-top: 9%;
 }
 
 .why-us h1{
@@ -200,14 +203,14 @@ div.inquiry{
 }
 
 .why-us .why-us-text{
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(0,0,0,0.7);
   /*color: #168eea;*/
   border-radius: 5px;
   width: 50%;
   text-align: center;
   margin: 20px;
   padding: 20px;
-  margin-bottom: 170px;
+  margin-bottom: 90px;
   line-height: 30px;
   font-size: 1.1em;
 }
@@ -249,7 +252,7 @@ div.inquiry{
 }
 
 .contact-map .contact-address{
-  background-color: #ee4f4f;
+  background-color: #f22;
 }
 
 .contact-map .contact-phone{
