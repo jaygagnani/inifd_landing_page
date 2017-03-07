@@ -1,7 +1,8 @@
 body{
   margin:0;
 	/*font-family: 'Source Sans Pro', sans-serif !important;*/
-  font-family: 'Arapey', serif;
+  /*font-family: 'Arapey', serif;*/
+  font-family: 'PT Sans', sans-serif;
 	background: #fff;
   color: #fff;
   letter-spacing: 1px;
@@ -59,7 +60,7 @@ nav.navbar .navbar-header .navbar-brand img{
 }
 
 .top-banner{
-  background: url(../images/web_img.png) no-repeat 0px 0px;
+  background: url(../images/web_img_invert.png) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -102,6 +103,7 @@ nav.navbar .navbar-header .navbar-brand img{
 div.inquiry{
   background: rgba(255,255,255,0.3);
   color: #c03020;
+  font-weight: bold;
   padding: 20px;
   margin-top: 30px;
 }
@@ -147,34 +149,35 @@ div.inquiry{
 /* Courses */
 .courses{
   width: 100%;
+  margin: 0px;
 }
 
 .courses h1{
   letter-spacing: 1px;
 }
 
-.courses .fashion-design-content,
 .courses .interior-design-content {
   padding: 0px;
 }
 
-.courses .fashion-design-image img,
-.courses .interior-design-image img {
-  height: 350px;
-  width: auto;
+.courses .interior-design-image .twinkle-image{
+  padding: 0px;
 }
 
-.courses .fashion-design-text,
+.courses .interior-design-image img {
+  height: 400px;
+  width: 100%;
+}
+
 .courses .interior-design-text {
   padding: 50px;
+  /*background: #fd3;*/
+  background-color: #f22;
+  /*color: #f22;*/
 }
 
-.courses .fashion-design-text{
-  background: #168eea;
-}
-
-.courses .interior-design-text{
-  background: #ee4f4f;
+.courses .interior-design-text p {
+  font-size: 1.1em;
 }
 
 /* Courses ends */
@@ -190,7 +193,7 @@ div.inquiry{
   -ms-background-size: cover;
   height: 100%;
   width: 100%;
-  padding-top: 13%;
+  padding-top: 9%;
 }
 
 .why-us h1{
@@ -208,7 +211,7 @@ div.inquiry{
   text-align: center;
   margin: 20px;
   padding: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 90px;
   line-height: 30px;
   font-size: 1.1em;
 }
@@ -222,7 +225,7 @@ div.inquiry{
 
 .contact-map .map #map {
   width: 100%;
-  height: 337px;
+  height: 357px;
 }
 
 .contact-map .contact-email,
@@ -250,7 +253,7 @@ div.inquiry{
 }
 
 .contact-map .contact-address{
-  background-color: #ee4f4f;
+  background-color: #f22;
 }
 
 .contact-map .contact-phone{
@@ -262,10 +265,11 @@ div.inquiry{
 /* Social Media Timelines */
 .social-media{
   /*background-color: #ee4f4f;*/
-  background-color: #585858;
+  /*background-color: #424141;*/
+  background: #fd3;
   width: 100%;
   padding: 30px;
-  color: #fff;
+  color: #f22;
 }
 
 .social-media h1{
@@ -274,7 +278,7 @@ div.inquiry{
 
 .social-media h3{
   padding-bottom: 1em;
-  /*color: #168eea;*/
+  color: #168eea;
 }
 
 .social-media iframe #facebook ._li ._2p3a{
@@ -301,7 +305,7 @@ div.inquiry{
 }
 
 .footer p a:hover {
-  color: #fff;
+  color: #f22;
 	text-decoration:underline;
 }
 /* Footer ends */
