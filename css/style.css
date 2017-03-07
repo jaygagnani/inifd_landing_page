@@ -39,22 +39,26 @@ p{
 }
 
 nav.navbar, navbar.navbar-default{
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0);
   border: 1px solid transparent;
   margin: 0px;
   border-radius: 0px;
   z-index: 100;
 }
 
+nav.navbar .navbar-header{
+  text-align: center;
+}
+
 nav.navbar .navbar-header .navbar-brand img{
   padding-left: 50px;
-  width: 120px;
+  width: 180px;
   position: absolute;
-  top: 0px;
+  top: -10px;
 }
 
 .top-banner{
-  background: url(../images/image3.jpg) no-repeat 0px 0px;
+  background: url(../images/web_img.png) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -64,7 +68,7 @@ nav.navbar .navbar-header .navbar-brand img{
   height: 100%;
   top: 0px;
   width: 100%;
-  padding-bottom: 4%;
+  padding-bottom: 5%;
 }
 
 .top-banner .top-banner-content{
@@ -74,10 +78,13 @@ nav.navbar .navbar-header .navbar-brand img{
   padding-right: 3%;
 }
 
+.top-banner .top-banner-content img{
+  width: 90px;
+}
+
 .top-banner .top-banner-content .bullet-points{
   margin-top: 30px;
   padding-bottom: 30px;
-  text-align: left;
 }
 
 .top-banner .top-banner-content .bullet-points h1{
@@ -85,16 +92,17 @@ nav.navbar .navbar-header .navbar-brand img{
 }
 
 .top-banner .top-banner-content .bullet-points center p {
-  color: #c03020;
-  font-size: 2em;
-  margin-top: 70px;
-  text-align: left;
+  /*color: #c03020;*/
+  color: #ffffff;
+  font-size: 2rem;
+  margin-top: 50px;
 }
 
 div.inquiry{
   background: rgba(255,255,255,0.5);
   color: #c03020;
   padding: 20px;
+  margin-top: 30px;
 }
 
 .inquiry .inquiry-title{
@@ -157,7 +165,7 @@ div.inquiry{
 
 .courses .fashion-design-text,
 .courses .interior-design-text {
-  padding: 10px;
+  padding: 50px;
 }
 
 .courses .fashion-design-text{
@@ -172,7 +180,7 @@ div.inquiry{
 
 /* Why Us */
 .why-us{
-  background: url("../images/g4.jpg") 0px 0px no-repeat;
+  background: url("../images/INIFD-Why-Choose-Us.png") 0px 0px no-repeat;
   background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -181,7 +189,7 @@ div.inquiry{
   -ms-background-size: cover;
   height: 100%;
   width: 100%;
-  padding-top: 10%;
+  padding-top: 13%;
 }
 
 .why-us h1{
@@ -192,14 +200,16 @@ div.inquiry{
 }
 
 .why-us .why-us-text{
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.1);
+  /*color: #168eea;*/
   border-radius: 5px;
   width: 50%;
   text-align: center;
   margin: 20px;
   padding: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 170px;
   line-height: 30px;
+  font-size: 1.1em;
 }
 /* Why Us ends */
 
@@ -224,6 +234,10 @@ div.inquiry{
   background-color: #000000;
 }
 
+.contact-map .contact-email a{
+  color: #ffffff;
+}
+
 .contact-map .contact-address,
 .contact-map .contact-phone {
   font-size: 1.1em;
@@ -246,13 +260,20 @@ div.inquiry{
 
 /* Social Media Timelines */
 .social-media{
-  background-color: #ee4f4f;
+  /*background-color: #ee4f4f;*/
+  background-color: #585858;
   width: 100%;
   padding: 30px;
+  color: #fff;
 }
 
 .social-media h1{
   padding-bottom: 1em;
+}
+
+.social-media h3{
+  padding-bottom: 1em;
+  /*color: #168eea;*/
 }
 
 .social-media iframe #facebook ._li ._2p3a{
@@ -275,10 +296,11 @@ div.inquiry{
 
 .footer p a {
   color: #fff;
+  text-decoration: none;
 }
 
 .footer p a:hover {
   color: #fff;
-	text-decoration:none;
+	text-decoration:underline;
 }
 /* Footer ends */
